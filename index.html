@@ -32,7 +32,7 @@
 					<tbody id="tabela-pacientes">
 						<tr class="paciente" id="primeiro-paciente">
 							<td class="info-nome">Paulo</td>
-							<td class="info-peso">100</td>
+							<td class="info-peso">-100</td>
 							<td class="info-altura">2.00</td>
 							<td class="info-gordura">10</td>
 							<td class="info-imc">0</td>
@@ -70,6 +70,8 @@
 						</tr>
 					</tbody>
 				</table>
+				<span id="erro-ajax" class="invisivel">Erro ao buscar os pacientes</span>
+				<button id="buscar-pacientes" class="botao bto-principal">Buscar Pacientes</button>
 
 			</section>
 			<section class="container">
@@ -103,5 +105,6 @@
 		<script src='js/form.js'></script>
 		<script src='js/remover-paciente.js'></script>
 		<script src='js/filtra.js'></script>
+		<script src='js/buscar-pacientes.js'></script>
 	</body>
 </html>
